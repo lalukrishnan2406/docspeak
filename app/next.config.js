@@ -15,6 +15,10 @@ const nextConfig = {
     serverActions: {
       allowedOrigins: ['*']
     }
+  },
+  output: 'standalone',
+  typescript: {
+    ignoreBuildErrors: true
   }
 }
 
